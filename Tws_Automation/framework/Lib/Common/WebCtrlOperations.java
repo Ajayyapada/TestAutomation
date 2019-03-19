@@ -167,7 +167,7 @@ public class WebCtrlOperations {
 				break;
 
 			case "gc": // added by shwetha
-				ChromeDriverPath="C:\\Users\\ajay.yapada\\Desktop\\auto\\ADT_Resources\\Tws_Automation\\framework\\BrowserDrivers\\chromedriver.exe";
+				ChromeDriverPath="C:\\Users\\ajay.yapada\\GitProjectlocalrepo\\Tws_Automation\\framework\\BrowserDrivers\\chromedriver.exe";
 				File chromefile = new File(ChromeDriverPath);
 				System.setProperty("webdriver.chrome.driver", chromefile.getAbsolutePath());
 				//System.setProperty("webdriver.chrome.args", "--disable-logging");

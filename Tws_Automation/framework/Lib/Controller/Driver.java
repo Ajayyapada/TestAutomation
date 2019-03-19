@@ -101,7 +101,6 @@ public class Driver extends Main {
 	public static GlobalProperties Gprops = null;
 	public static List<Throwable> T = null;
 	public static RuntimeOptions runtimeOptions = null;
-
 	public static Runtime runtime = null;
 	public static CucumberFeature cucumberfeature = null;
 	public static String FEFileName=null;

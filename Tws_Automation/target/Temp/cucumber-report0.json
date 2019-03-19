@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 226102,
+              "duration": 236988,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 14,
-        "name": "TWS info",
+        "line": 15,
+        "name": "ListingAdditionalDetails",
         "description": "",
-        "id": "twsapplication-first;tws-info;;2",
+        "id": "twsapplication-first;listingadditionaldetails;;2",
         "after": [
           {
             "result": {
-              "duration": 233878,
+              "duration": 1679849858,
               "status": "passed"
             },
             "match": {
@@ -33,10 +33,14 @@
         "keyword": "Scenario Outline",
         "steps": [
           {
+            "output": [
+              "\u003cdiv\u003e\u003cspan\u003eOS Name: Windows 10\u003cbr\u003e\u003c/div\u003e\u003c/span\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url https://www.twsstaging.com/login.asp\u003c/span\u003e\u003c/div\u003e",
+              "The user has launched \u0027https://www.twsstaging.com/login.asp\u003cbr\u003e"
+            ],
             "result": {
-              "duration": 1061877733,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat defFiles.MyProfileContactInfo.launchTws(MyProfileContactInfo.java:54)\r\n\tat ✽.Given I launch TWS login panel(C:/Users/ajay.yapada/GitProjectlocalrepo/Tws_Automation/FeatureFiles/ProfileDataEntry/Myprofile_ProfessionalExpertiseandCredentials.feature:4)\r\n",
-              "status": "failed"
+              "duration": 16603141424,
+              "status": "passed"
             },
             "line": 4,
             "name": "I launch TWS login panel",
@@ -46,8 +50,13 @@
             "keyword": "Given "
           },
           {
+            "output": [
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Successfully login in to tws application\u003cbr\u003e"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 76640974237,
+              "status": "passed"
             },
             "line": 5,
             "name": "I am login in to Tws Application",
@@ -57,78 +66,133 @@
             "keyword": "When "
           },
           {
+            "output": [
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Manage Listings is available Tws/ListingsInfoandAdd\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Successfully Clicked on Account tab and Manage your account details and profile informationis displayed\u003cbr\u003e"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 3667202118,
+              "status": "passed"
             },
             "line": 6,
-            "name": "I am clicking on \"Account\"",
+            "name": "I am clicking on listing \"Listings\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Account",
-                  "offset": 18
+                  "val": "Listings",
+                  "offset": 26
                 }
               ],
-              "location": "MyProfileContactInfo.MyAccountClick(String)"
+              "location": "MyProfileContactInfo.MyListingsClick(String)"
             },
             "keyword": "Then "
           },
           {
+            "output": [
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Successfully Clicked on AddListings AddListingsis displayed\u003cbr\u003e"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 5850339170,
+              "status": "passed"
             },
             "line": 7,
-            "name": "I am clicking on myProfile\"profilesettings\"",
+            "name": "I am clicking on AddListings\"AddListings\"",
             "match": {
               "arguments": [
                 {
-                  "val": "profilesettings",
-                  "offset": 27
+                  "val": "AddListings",
+                  "offset": 29
                 }
               ],
-              "location": "MyProfileContactInfo.MyProfile(String)"
+              "location": "MyListingsInfoAdd.MyProfile(String)"
             },
             "keyword": "Then "
           },
           {
+            "output": [
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully clearedAdminCondoFees\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully entered Data\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Clicked on StatusAdminDropdown\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully clearedAdminTaxYear\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully entered Data\u003cbr\u003e"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 1414848803,
+              "status": "passed"
             },
             "line": 8,
-            "name": "I am entering\"Ajay pvt.ltd\",\"18383 Preston Rd., Ste. 150\",\"Dallas\",\"75252\",\"AB\",\"Canada\"",
+            "name": "I am entering AdditionalDetails1\"7878787.00\",\"Quarterly\",\"2018\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Ajay pvt.ltd",
-                  "offset": 14
+                  "val": "7878787.00",
+                  "offset": 33
                 },
                 {
-                  "val": "18383 Preston Rd., Ste. 150",
-                  "offset": 29
+                  "val": "Quarterly",
+                  "offset": 46
                 },
                 {
-                  "val": "Dallas",
-                  "offset": 59
-                },
-                {
-                  "val": "75252",
-                  "offset": 68
-                },
-                {
-                  "val": "AB",
-                  "offset": 76
-                },
-                {
-                  "val": "Canada",
-                  "offset": 81
+                  "val": "2018",
+                  "offset": 58
                 }
               ],
-              "location": "MyProfile_Prof_expertise.EnterProffesionalAddressDetails(String,String,String,String,String,String)"
+              "location": "MyListingsPropDetails.ListingAdditionalDetails1(String,String,String)"
             },
             "matchedColumns": [
               1,
               2,
-              3,
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully clearedAdminMonthlyRent\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully entered Data\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully clearedAdminTaxes\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully entered Data\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully clearedAdminInteriorFeatures\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully entered Data\u003cbr\u003e"
+            ],
+            "result": {
+              "duration": 2113235326,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am entering AdditionalDetails2\"1200\",\"1400\",\"InteriorFeatures\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1200",
+                  "offset": 33
+                },
+                {
+                  "val": "1400",
+                  "offset": 40
+                },
+                {
+                  "val": "InteriorFeatures",
+                  "offset": 47
+                }
+              ],
+              "location": "MyListingsPropDetails.ListingAdditionalDetails2(String,String,String)"
+            },
+            "matchedColumns": [
               4,
               5,
               6
@@ -136,64 +200,49 @@
             "keyword": "And "
           },
           {
+            "output": [
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully clearedAdminExteriorFeatures\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully entered Data\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully clearedAdminAdditionalFeaturesandAmenities\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully entered Data\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully clearedAdminRemarks\u003cbr\u003e",
+              "\u003cdiv\u003e\u003cspan\u003eThe user is on the page with url http://www.twsstaging.com/login/frameset.asp?i\u003d12285\u0026b\u003d1\u0026e\u003d3\u0026sid\u003d12452\u0026a\u003dstaj8\u0026username\u003dst_aj8\u0026r\u003d0\u0026rdid\u003d{C3B14A11-F5F2-4C39-B020-571F29A7E91C}\u003c/span\u003e\u003c/div\u003e",
+              "Succesfully entered Data\u003cbr\u003e"
+            ],
             "result": {
-              "status": "skipped"
+              "duration": 2076125606,
+              "status": "passed"
             },
-            "line": 9,
-            "name": "I am entering values\"www.facebook.com\",\"www.linkdin.com\",\"www.twitter.com\",\"www.realtor.com\",\"www.pintrest.com\",\"www.instagram.com\"",
+            "line": 10,
+            "name": "I am entering AdditionalDetails3\"ExteriorFeatures\",\"AdditionalFeaturesandAmenities\",\"Remarks\"",
             "match": {
               "arguments": [
                 {
-                  "val": "www.facebook.com",
-                  "offset": 21
+                  "val": "ExteriorFeatures",
+                  "offset": 33
                 },
                 {
-                  "val": "www.linkdin.com",
-                  "offset": 40
+                  "val": "AdditionalFeaturesandAmenities",
+                  "offset": 52
                 },
                 {
-                  "val": "www.twitter.com",
-                  "offset": 58
-                },
-                {
-                  "val": "www.realtor.com",
-                  "offset": 76
-                },
-                {
-                  "val": "www.pintrest.com",
-                  "offset": 94
-                },
-                {
-                  "val": "www.instagram.com",
-                  "offset": 113
+                  "val": "Remarks",
+                  "offset": 85
                 }
               ],
-              "location": "MyProfile_Prof_expertise.EnterProffesionalSocialsiteDetails(String,String,String,String,String,String)"
+              "location": "MyListingsPropDetails.ListingAdditionalDetails3(String,String,String)"
             },
             "matchedColumns": [
               7,
               8,
-              9,
-              10,
-              11,
-              12
+              9
             ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "output": [
-              "\u003cdiv\u003e\u003cspan\u003e\u003cb\u003eThe reason for the above failure:\u003c/b\u003e\u003c/span\u003e\u003cspan id\u003d\"FailureReason\"\u003eException occurred. null\u003cbr\u003e\u003c/span\u003e\u003c/div\u003e",
-              "\u003cdiv\u003e\u003cspan\u003e\u003cb\u003eThe browser url when scenario failed:\u003c/b\u003e\u003c/span\u003e\u003cspan\u003eUnable to get the URL and screenshot of the page because browser is not open \u003c/span\u003e\u003c/div\u003e"
-            ],
-            "line": 10,
-            "name": "I am verifying customsiteExpertdetails",
-            "match": {
-              "location": "CommonValidationfileforProfileDetails.verifiyingCustomSiteExpertdetails()"
-            },
-            "keyword": "Then "
+            "keyword": "And "
           }
         ]
       }
@@ -202,6 +251,6 @@
     "description": "",
     "id": "twsapplication-first",
     "keyword": "Feature",
-    "uri": "C:/Users/ajay.yapada/GitProjectlocalrepo/Tws_Automation/FeatureFiles/ProfileDataEntry/Myprofile_ProfessionalExpertiseandCredentials.feature"
+    "uri": "C:/Users/ajay.yapada/GitProjectlocalrepo/Tws_Automation/FeatureFiles/ProfileDataEntry/MylistingAddtionalFeatures.feature"
   }
 ]

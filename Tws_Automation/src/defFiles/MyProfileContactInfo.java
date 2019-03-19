@@ -44,6 +44,7 @@ public class MyProfileContactInfo {
 	public void launchTws() {
 		String functionName = "launchTws";
 		try {
+			
 			Driver.WebCtrl.GetWebDriver(Driver.Init.GetAUTBrowser(), Driver.Init.GetOS64Bit());
 			String baseURL = Driver.Init.GetBaseURL();
 			Driver.Gprops.GetWebDriver().get(baseURL);
