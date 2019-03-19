@@ -1,0 +1,15 @@
+[2017/12/06 15:03:52] :: [pool-1-thread-12] :: Base path for the test = C:\New Selenium\Salesforce_QA_Automation\ADT_Resources\<br><br>[2017/12/06 15:03:52] :: [pool-1-thread-12] :: Current Thread Name for the test is "pool-1-thread-12"<br><br>[2017/12/06 15:03:55] :: [pool-1-thread-12] :: Error occured in the function GetWebDriver and error message is Sauce Labs Authentication Error.
+You used username 'enterprise_sys' and access key 'XXXXXXXX-XXXX-XXXX-XXXX-XXXX7a5825b7' to authenticate, which are not valid Sauce Labs credentials.
+
+The following desired capabilities were received:
+{'browserName': 'chrome',
+ 'build': None,
+ 'idle-timeout': 500,
+ 'nativeEvents': False,
+ 'pageLoadingStrategy': 'none',
+ 'platform': 'Windows 7',
+ 'version': '50'}
+Command duration or timeout: 712 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BRIDT-1383', ip: '192.168.233.131', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver, Stopping execution<br><br>[2017/12/06 15:03:55] :: [pool-1-thread-12] :: Exception occurred. null<br><br>[2017/12/06 15:03:56] :: [pool-1-thread-12] ::  File Name: Assert.java Method name: fail(86)<br> File Name: Assert.java Method name: assertTrue(41)<br> File Name: Assert.java Method name: assertTrue(52)<br> File Name: SalesForce.java Method name: launchSF(51)<br> File Name: C:/New Selenium/Salesforce_QA_Automation/ADT_Resources/SalesForce/FeatureFiles/AMD1/New_Sales_Cancel_DomainName_NonInventory_With_Credit_Amount.feature Method name: Given I launch salesforce test portal(4)<br><br>Complete Error Message: null<br><br><br>

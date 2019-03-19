@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Environment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Variable>
+		<Name>BaseURL</Name>
+		<Value>https://www.twsstaging.com/login.asp</Value>
+	</Variable>
+	<Variable>
+		<Name>blnIsDbPwdEncrypted</Name>
+		<Value>false</Value>
+	</Variable>
+	<Variable>
+		<Name>PsVer</Name>
+		<Value>V30</Value>
+	</Variable>
+	<Variable>
+		<Name>email</Name>
+		<Value>ajay.yapada@brillio.com</Value>
+	</Variable>
+	<Variable>
+		<Name>WebBrowser</Name>
+		<Value>gc</Value>
+	</Variable>
+	<Variable>
+		<Name>userID</Name>
+		<Value>st_aj8</Value>
+	</Variable>
+
+	<Variable>
+		<Name>userPW</Name>
+		<Value>toptop</Value>
+	</Variable>
+
+	<Variable>
+		<Name>OS64bit</Name>
+		<Value>false</Value>
+	</Variable>
+	<Variable>
+		<Name>Grid2Server</Name>
+		<Value>qaselhub06pv</Value>
+	</Variable>
+
+</Environment>

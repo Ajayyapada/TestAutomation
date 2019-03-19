@@ -1,0 +1,74 @@
+<project name="SalesForce" basedir="." default="runcukes">
+	<property name="jars" value="AllJar" />
+	<property name="EnvFileName" value="Environment.xml" />
+	<property environment="env" />
+	<echo>Base Path:${basedir}</echo>
+
+	<target name="printjenkins" if="env.BUILD_ID">
+		<echo>Jenkins Build id:${env.BUILD_ID}</echo>
+		<echo>Jenkins Build Number:${env.BUILD_NUMBER}</echo>
+		<echo>Jenkins Job Name:${env.JOB_NAME}</echo>
+	</target>
+
+	<target name="printteamcity" if="teamcity.build.id">
+		<echo>Build id:${teamcity.build.id}</echo>
+		<echo>Build Number:${build.number}</echo>
+		<echo>Build Config Name:${teamcity.buildConfName}</echo>
+		<echo>Build Type ID:${teamcity.buildType.id}</echo>
+	</target>
+
+	<target name="classpath" depends="printjenkins,printteamcity">
+		<path id="classpath">
+			<fileset dir="${jars}">
+				<include name="**/*.jar" />
+			</fileset>
+			<pathelement location="${ProjectName}/bin/classes" />
+		</path>
+	</target>
+
+	<target name="compile" depends="classpath">
+		<echo>Deleting temp folder under the target folder..</echo>
+		<delete dir="./target/Temp" />
+		<echo>Creating temp folder under the target folder..</echo>
+		<mkdir dir="./target/Temp" />
+		<echo>Deleting the Bin directory..</echo>
+		<delete dir="${ProjectName}/bin" />
+		<echo>Creating the Bin directory..</echo>
+		<mkdir dir="${ProjectName}/bin/classes" />
+		<echo>Compile started...</echo>
+		<javac srcdir="${ProjectName}/src" destdir="${ProjectName}/bin/classes" includeantruntime="false" encoding="utf-8">
+			<src path="${ProjectName}/src" />
+			<src path="framework" />
+			<classpath refid="classpath" />
+		</javac>
+		<echo>Compile completed...</echo>
+	</target>
+
+	<target name="runcukes" depends="compile">
+		<echo>Component Name:${CompName}</echo>
+		<echo>Feature file name: ${FetFileName}</echo>
+		<echo>Tag name: ${Tag}</echo>
+		<echo>Started testcase execution...</echo>
+		<java classname="Lib.Controller.ThreadRunner" failonerror="false" fork="true" maxmemory="1024m">
+			<classpath refid="classpath" />
+			<sysproperty key="EnvFileName" value="${EnvFileName}" />
+			<sysproperty key="Tag" value="${Tag}" />
+			<sysproperty key="FetFileName" value="${FetFileName}" />
+			<sysproperty key="ProjectName" value="${ProjectName}" />
+			<sysproperty key="CompName" value="${CompName}" />
+			<sysproperty key="build.number" value="${build.number}" />
+			<sysproperty key="teamcity.buildConfName" value="${teamcity.buildConfName}" />
+			<sysproperty key="teamcity.build.id" value="${teamcity.build.id}" />
+			<sysproperty key="teamcity.buildType.id" value="${teamcity.buildType.id}" />
+			<sysproperty key="jenkins.build.id" value="${env.BUILD_ID}" />
+			<sysproperty key="jenkins.build.number" value="${env.BUILD_NUMBER}" />
+			<sysproperty key="jenkins.job.name" value="${env.JOB_NAME}" />
+			<sysproperty key="jenkins.build.url" value="${env.BUILD_URL}" />
+			<arg value="--glue" />
+			<arg value="defFiles" />
+		</java>
+		<echo>Completed testcase execution...</echo>
+		<echo>Thanks and Have a nice day</echo>
+	</target>
+</project>
+

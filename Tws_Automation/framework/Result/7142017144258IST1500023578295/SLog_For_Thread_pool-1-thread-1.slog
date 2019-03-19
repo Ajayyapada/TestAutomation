@@ -1,0 +1,8 @@
+[2017/07/14 14:42:59] :: [pool-1-thread-1] :: Base path for the test = C:\New Selenium\Salesforce_QA_Automation\ADT_Resources\<br><br>[2017/07/14 14:43:00] :: [pool-1-thread-1] :: Current Thread Name for the test is "pool-1-thread-1"<br><br>[2017/07/14 14:43:23] :: [pool-1-thread-1] :: Error occured in the function GetWebDriver and error message is session not created exception
+from disconnected: received Inspector.detached event
+  (Session info: chrome=55.0.2883.35)
+  (Driver info: chromedriver=2.27.440174 (e97a722caafc2d3a8b807ee115bfb307f7d2cfd9),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17.50 seconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BRIDT-1383', ip: '192.168.232.85', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.7.0_79'
+Driver info: org.openqa.selenium.chrome.ChromeDriver, Stopping execution<br><br>[2017/07/14 14:43:23] :: [pool-1-thread-1] :: Exception occurred. null<br><br>[2017/07/14 14:43:25] :: [pool-1-thread-1] ::  File Name: Assert.java Method name: fail(86)<br> File Name: Assert.java Method name: assertTrue(41)<br> File Name: Assert.java Method name: assertTrue(52)<br> File Name: SalesForce.java Method name: launchSF(50)<br> File Name: C:/New Selenium/Salesforce_QA_Automation/ADT_Resources/SalesForce/FeatureFiles/A2B_OrderValidation/Copy (2) of Copy (2) of Copy of OrderFieldValidationForAllTC.feature Method name: Given I launch salesforce test portal(5)<br><br>Complete Error Message: null<br><br><br>

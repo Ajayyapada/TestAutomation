@@ -1,0 +1,9 @@
+AdminParking,id,_tbParking
+AdminStyle,xpath,//*[@name='_cmbHouseStyle']
+AdminNumberofUnits,id,_tbUnits
+AdminBeds,id,_tbBedrooms
+AdminBaths,id,_tbBathrooms
+AdminPartialBaths,id,_tbPartialBathrooms
+AdminSquareFootage,id,_tbSquareFeet
+AdminLotSize,id,_tbLotSize
+AdminAge,id,_tbYearBuilt

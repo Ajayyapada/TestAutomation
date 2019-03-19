@@ -1,0 +1,11 @@
+AdminCondoFees,id,_tbCondoFee
+AdminFeeSchedule,xpath,//*[@name='_cmbCondoFeeTimePeriod']
+AdminTaxYear,id,_tbTaxYear
+AdminMonthlyRent,id,_tbRent
+AdminTaxes,id,_tbTaxes
+AdminInteriorFeatures,id,_tbInterior
+AdminExteriorFeatures,id,_tbExterior
+AdminAdditionalFeaturesandAmenities,id,_tbAmenities
+AdminRemarks,id,_tbRemark
+AdminAge,id,_tbYearBuilt
+

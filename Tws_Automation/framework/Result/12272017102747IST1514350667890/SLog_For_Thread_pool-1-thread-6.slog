@@ -1,0 +1,9 @@
+[2017/12/27 10:27:48] :: [pool-1-thread-6] :: Base path for the test = C:\New Selenium\Salesforce_QA_Automation\ADT_Resources\<br><br>[2017/12/27 10:27:48] :: [pool-1-thread-6] :: Current Thread Name for the test is "pool-1-thread-6"<br><br>[2017/12/27 11:51:28] :: [pool-1-thread-6] :: Error occured in the function GetWebDriver and error message is ERROR The test with session id f582937e84244e71a5a6ec1a44719a71 has already finished, and can't receive further commands.
+You can learn more at https://saucelabs.com/jobs/f582937e84244e71a5a6ec1a44719a71
+For help, please check https://wiki.saucelabs.com/display/DOCS/Common+Error+Messages
+Command duration or timeout: 1.72 seconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'BRIDT-1383', ip: '192.168.233.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir1000_5988}, takesHeapSnapshot=true, hasMetadata=true, databaseEnabled=false, hasTouchScreen=false, handlesAlerts=true, version=50.0.2661.75, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=f582937e84244e71a5a6ec1a44719a71, webStorageEnabled=true, locationContextEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f582937e84244e71a5a6ec1a44719a71, Stopping execution<br><br>

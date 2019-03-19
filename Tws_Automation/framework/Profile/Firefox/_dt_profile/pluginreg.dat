@@ -1,0 +1,200 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.16|$
+Arch|x86-msvc|$
+
+[PLUGINS]
+NPSWF32_11_9_900_170.dll|$
+C:\Windows\system32\Macromed\Flash\NPSWF32_11_9_900_170.dll|$
+11.9.900.170|$
+1386719347522|0|0|$
+Shockwave Flash 11.9 r900|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$
+npGoogleUpdate3.dll|$
+C:\Program Files\Google\Update\1.3.22.3\npGoogleUpdate3.dll|$
+1.3.22.3|$
+1386132474314|0|0|$
+Google Update|$
+Google Update|$
+2
+0|application/x-vnd.google.update3webcontrol.3|||$
+1|application/x-vnd.google.oneclickctrl.9|||$
+npMeetingJoinPluginOC.dll|$
+C:\Program Files\Mozilla Firefox\plugins\npMeetingJoinPluginOC.dll|$
+15.0.4545.1000|$
+1381989202000|0|0|$
+The plugin allows you to have a better experience with Microsoft Lync|$
+Microsoft Office 2013|$
+1
+0|application/vnd.microsoft.communicator.ocsmeeting|Lync Plug-in for Firefox||$
+npjp2.dll|$
+C:\Program Files\Java\jre7\bin\plugin2\npjp2.dll|$
+10.40.2.43|$
+1380011929891|0|0|$
+Next Generation Java Plug-in 10.40.2 for Mozilla browsers|$
+Java(TM) Platform SE 7 U40|$
+38
+0|application/x-java-applet|Java Applet||$
+1|application/x-java-bean|JavaBeans||$
+2|application/x-java-vm|||$
+3|application/x-java-applet;version=1.1.1|||$
+4|application/x-java-bean;version=1.1.1|||$
+5|application/x-java-applet;version=1.1|||$
+6|application/x-java-bean;version=1.1|||$
+7|application/x-java-applet;version=1.2|||$
+8|application/x-java-bean;version=1.2|||$
+9|application/x-java-applet;version=1.1.3|||$
+10|application/x-java-bean;version=1.1.3|||$
+11|application/x-java-applet;version=1.1.2|||$
+12|application/x-java-bean;version=1.1.2|||$
+13|application/x-java-applet;version=1.3|||$
+14|application/x-java-bean;version=1.3|||$
+15|application/x-java-applet;version=1.2.2|||$
+16|application/x-java-bean;version=1.2.2|||$
+17|application/x-java-applet;version=1.2.1|||$
+18|application/x-java-bean;version=1.2.1|||$
+19|application/x-java-applet;version=1.3.1|||$
+20|application/x-java-bean;version=1.3.1|||$
+21|application/x-java-applet;version=1.4|||$
+22|application/x-java-bean;version=1.4|||$
+23|application/x-java-applet;version=1.4.1|||$
+24|application/x-java-bean;version=1.4.1|||$
+25|application/x-java-applet;version=1.4.2|||$
+26|application/x-java-bean;version=1.4.2|||$
+27|application/x-java-applet;version=1.5|||$
+28|application/x-java-bean;version=1.5|||$
+29|application/x-java-applet;version=1.6|||$
+30|application/x-java-bean;version=1.6|||$
+31|application/x-java-applet;version=1.7|||$
+32|application/x-java-bean;version=1.7|||$
+33|application/x-java-applet;jpi-version=1.7.0_40|||$
+34|application/x-java-bean;jpi-version=1.7.0_40|||$
+35|application/x-java-vm-npruntime|||$
+36|application/x-java-applet;deploy=10.40.2|||$
+37|application/x-java-applet;javafx=2.2.40|||$
+npdeployJava1.dll|$
+C:\Windows\system32\npdeployJava1.dll|$
+10.40.2.43|$
+1380011927661|0|0|$
+NPRuntime Script Plug-in Library for Java(TM) Deploy|$
+Java Deployment Toolkit 7.0.400.43|$
+1
+0|application/java-deployment-toolkit|||$
+nppdf32.dll|$
+C:\Program Files\Adobe\Reader 10.0\Reader\AIR\nppdf32.dll|$
+10.1.8.24|$
+1378216438000|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 10.1.8|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+nppdf32.dll|$
+C:\Program Files\Adobe\Reader 10.0\Reader\browser\nppdf32.dll|$
+10.1.8.24|$
+1378216432000|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 10.1.8|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+nppdf32.dll|$
+C:\Program Files\Mozilla Firefox\plugins\nppdf32.dll|$
+10.1.8.24|$
+1378216432000|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 10.1.8|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+np32dsw.dll|$
+C:\Windows\system32\Adobe\Director\np32dsw.dll|$
+11.6.5.635|$
+1335445582000|0|0|$
+Adobe Shockwave for Director Netscape plug-in, version 11.6.5.635|$
+Shockwave for Director|$
+1
+0|application/x-director|Shockwave Movie|dir,dxr,dcr|$
+npctrl.dll|$
+C:\Program Files\Microsoft Silverlight\4.1.10329.0\npctrl.dll|$
+4.1.10329.0|$
+1332973676000|0|0|$
+4.1.10329.0|$
+Silverlight Plug-In|$
+2
+0|application/x-silverlight|npctrl|scr|$
+1|application/x-silverlight-2|||$
+npCWAHostPlugin.dll|$
+C:\Users\murthis\AppData\Roaming\Mozilla\plugins\npCWAHostPlugin.dll|$
+4.0.7577.0|$
+1288800064000|0|0|$
+Microsoft Lync Web App Plug-in|$
+Microsoft Lync Web App Plug-in|$
+1
+0|application/x-reach-appsharing|4.0.7577.0|*|$
+npCWAVersionPlugin.dll|$
+C:\Users\murthis\AppData\Roaming\Mozilla\plugins\npCWAVersionPlugin.dll|$
+4.0.7577.0|$
+1288800064000|0|0|$
+Microsoft Lync Web App Version Checker|$
+Microsoft Lync Web App Version Checker|$
+1
+0|application/x-reach-appsharing-version|4.0.7577.0|*|$
+NPSPWRAP.DLL|$
+C:\PROGRA~1\MICROS~1\Office14\NPSPWRAP.DLL|$
+14.0.4761.1000|$
+1269442358000|0|0|$
+The plug-in allows you to open and edit files using Microsoft Office applications|$
+Microsoft Office 2010|$
+1
+0|application/x-sharepoint|SharePoint Plug-in for Firefox||$
+NPAUTHZ.DLL|$
+C:\PROGRA~1\MICROS~1\Office14\NPAUTHZ.DLL|$
+14.0.4730.1010|$
+1263053538000|0|0|$
+Office Authorization plug-in for NPAPI browsers|$
+Microsoft Office 2010|$
+1
+0|application/x-msoffice14|14.0.4730.1010|*|$
+np-mswmp.dll|$
+C:\Program Files\Mozilla Firefox\plugins\np-mswmp.dll|$
+1.0.0.8|$
+1176205868000|0|0|$
+np-mswmp|$
+Microsoft® Windows Media Player Firefox Plugin|$
+10
+0|application/x-ms-wmp|np-mswmp|*|$
+1|application/asx||*|$
+2|video/x-ms-asf-plugin||*|$
+3|application/x-mplayer2||*|$
+4|video/x-ms-asf||asf,asx,*|$
+5|video/x-ms-wm||wm,*|$
+6|audio/x-ms-wma||wma,*|$
+7|audio/x-ms-wax||wax,*|$
+8|video/x-ms-wmv||wmv,*|$
+9|video/x-ms-wvx||wvx,*|$
+
+[INVALID]
+C:\Program Files\Microsoft Silverlight\4.1.10329.0\npctrlui.dll|$
+1332981060000|$
+C:\Windows\system32\npmproxy.dll|$
+1247534171654|$

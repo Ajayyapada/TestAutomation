@@ -1,0 +1,19 @@
+Listings,xpath,//a[@class='nav_action main-nav_action icon-before listing-icon']
+AddListings,xpath,//*[@value='Add Listings']
+AdminListingPrice,id,_tbListPrice
+AdminMLSID,id,_tbMlsNumber
+StatusAdmin,id,_cmbStatus
+AdminListingDate,id,_tbListDate
+AdminVirtualTourURL,id,_tbVirtualTourUrl
+AdminShortDescription,id,_tbTitle
+AdminHouseNo,id,_tbHouseNumber
+AdminSuiteNo,id,_tbSuitNumber
+AdminAddressLine1,id,_tbAddrLine1
+AdminAddressLine2,id,_tbAddrLine2
+AdminCity,id,_tbCity
+AdminPostalCode,id,_tbZip
+ProvinceAdmin,id,_cmbStates
+CountryAdmin,id,_cmbCountry
+AdminArea,id,_tbSubdivision
+AdminSchoolDistrict,id,_tbSchoolDistrict
+PropertyTypeAdmin,id,_cmbPropertyType

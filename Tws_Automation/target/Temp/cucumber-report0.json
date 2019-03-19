@@ -1,0 +1,207 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 226102,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TWS info",
+        "description": "",
+        "id": "twsapplication-first;tws-info;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 233878,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1061877733,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat defFiles.MyProfileContactInfo.launchTws(MyProfileContactInfo.java:54)\r\n\tat ✽.Given I launch TWS login panel(C:/Users/ajay.yapada/GitProjectlocalrepo/Tws_Automation/FeatureFiles/ProfileDataEntry/Myprofile_ProfessionalExpertiseandCredentials.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "I launch TWS login panel",
+            "match": {
+              "location": "MyProfileContactInfo.launchTws()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "I am login in to Tws Application",
+            "match": {
+              "location": "MyProfileContactInfo.loginIntoApplication()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I am clicking on \"Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account",
+                  "offset": 18
+                }
+              ],
+              "location": "MyProfileContactInfo.MyAccountClick(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I am clicking on myProfile\"profilesettings\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "profilesettings",
+                  "offset": 27
+                }
+              ],
+              "location": "MyProfileContactInfo.MyProfile(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I am entering\"Ajay pvt.ltd\",\"18383 Preston Rd., Ste. 150\",\"Dallas\",\"75252\",\"AB\",\"Canada\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ajay pvt.ltd",
+                  "offset": 14
+                },
+                {
+                  "val": "18383 Preston Rd., Ste. 150",
+                  "offset": 29
+                },
+                {
+                  "val": "Dallas",
+                  "offset": 59
+                },
+                {
+                  "val": "75252",
+                  "offset": 68
+                },
+                {
+                  "val": "AB",
+                  "offset": 76
+                },
+                {
+                  "val": "Canada",
+                  "offset": 81
+                }
+              ],
+              "location": "MyProfile_Prof_expertise.EnterProffesionalAddressDetails(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I am entering values\"www.facebook.com\",\"www.linkdin.com\",\"www.twitter.com\",\"www.realtor.com\",\"www.pintrest.com\",\"www.instagram.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.facebook.com",
+                  "offset": 21
+                },
+                {
+                  "val": "www.linkdin.com",
+                  "offset": 40
+                },
+                {
+                  "val": "www.twitter.com",
+                  "offset": 58
+                },
+                {
+                  "val": "www.realtor.com",
+                  "offset": 76
+                },
+                {
+                  "val": "www.pintrest.com",
+                  "offset": 94
+                },
+                {
+                  "val": "www.instagram.com",
+                  "offset": 113
+                }
+              ],
+              "location": "MyProfile_Prof_expertise.EnterProffesionalSocialsiteDetails(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "output": [
+              "\u003cdiv\u003e\u003cspan\u003e\u003cb\u003eThe reason for the above failure:\u003c/b\u003e\u003c/span\u003e\u003cspan id\u003d\"FailureReason\"\u003eException occurred. null\u003cbr\u003e\u003c/span\u003e\u003c/div\u003e",
+              "\u003cdiv\u003e\u003cspan\u003e\u003cb\u003eThe browser url when scenario failed:\u003c/b\u003e\u003c/span\u003e\u003cspan\u003eUnable to get the URL and screenshot of the page because browser is not open \u003c/span\u003e\u003c/div\u003e"
+            ],
+            "line": 10,
+            "name": "I am verifying customsiteExpertdetails",
+            "match": {
+              "location": "CommonValidationfileforProfileDetails.verifiyingCustomSiteExpertdetails()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TwsApplication_First",
+    "description": "",
+    "id": "twsapplication-first",
+    "keyword": "Feature",
+    "uri": "C:/Users/ajay.yapada/GitProjectlocalrepo/Tws_Automation/FeatureFiles/ProfileDataEntry/Myprofile_ProfessionalExpertiseandCredentials.feature"
+  }
+]

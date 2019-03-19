@@ -1,0 +1,3 @@
+EnterUNcntrl,xpath,//*[@id='username']
+EnterPWDcntl,id,password
+SignInButtoncntrl,xpath,//*[@type='submit']
